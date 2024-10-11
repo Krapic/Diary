@@ -61,7 +61,7 @@ To run the application locally, execute the following command:
 dotnet run
 ```
 
-The application will be accessible at `https://localhost:5001` or `http://localhost:5000`.
+The application will be accessible at `https://localhost:7165` or `http://localhost:5249`.
 
 ## Usage
 

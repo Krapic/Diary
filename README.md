@@ -1,6 +1,7 @@
 # Diary Web Application
 
-This is a Diary Web Application developed using **ASP.NET Core**. The application allows users to create, read, update, and delete diary entries. It features a simple and user-friendly interface for managing personal notes, thoughts, and daily activities.
+This is a Diary Web Application developed using **ASP.NET Core**. The application allows users to create, read, update, and delete diary entries.
+It features a simple and user-friendly interface for managing personal notes, thoughts, and daily activities.
 
 ## Features
 

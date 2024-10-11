@@ -1,0 +1,42 @@
+﻿<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+@model DiaryEntry
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class ="card">
+                <div class="card-header bg-primary text-white">
+                    <h2>Create Diary Entry</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post">
+                        <div class="form-group mb-3">
+                            <label asp-for="Title" class="form-label">Title</label>
+                            <input asp-for="Title" class="form-control" placeholder="Enter title"/>
+                            <span asp-validation-for="Title" class="text-danger"></span> <!-- Ovo ima veze sa skriptom na dnu koda (Pokazuje na Client-Side da je ova forma Required) -->
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="Content" class="form-label">Content</label>
+                            <input asp-for="Content" row="5" class="form-control" placeholder="Enter content"/>
+                            <span asp-validation-for="Content" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="Created" class="form-label">Created</label>
+                            <input asp-for="Created" class="form-control" type="date"/>
+                            <span asp-validation-for="Created" class="text-danger"></span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <button type="submit" class="btn btn-primary">Create</button>
+                            <a asp-controller="DiaryEntries" asp-action="Index" class="btn btn-danger">Back</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" /> <!-- Ovo služi za Client-Side validaciju za sigurnost da korisnik ne unese prazna polja forme u Bazu Podataka -->
+}

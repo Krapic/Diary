@@ -1,0 +1,27 @@
+﻿// Sadrži sve konfiguracije za pokretanje aplikacije u različitim okruženjima
+// (Development, Staging, Production) i na različitim portovima (http, https)
+// Ovaj fajl se koristi samo za razvoj aplikacije
+
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": { // Profili za različita okruženja i portove (http, https) 
+    "http": { // Profil za http protokol i Development okruženje 
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5249",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "https": { // Profil za https protokol i Development okruženje
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7165;http://localhost:5249",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

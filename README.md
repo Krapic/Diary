@@ -65,9 +65,8 @@ The application will be accessible at `https://localhost:7165` or `http://localh
 
 ## Usage
 
-1. Register or log in (if authentication is enabled).
-2. Start writing your diary entries using the provided text editor.
-3. View your entries in a list or edit them as needed.
+1. Start writing your diary entries using the provided text editor.
+2. View your entries in a list or edit them as needed.
 
 ## Contributing
 

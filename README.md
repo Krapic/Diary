@@ -43,6 +43,8 @@ It features a simple and user-friendly interface for managing personal notes, th
 
 ### Database Setup
 
+![Database](https://github.com/user-attachments/assets/70ef9595-a18b-400d-8b2c-9fedf3cb67a5)
+
 1. Update the `appsettings.json` file with your database connection string. If you are using SQLite, it should look something like this:
    ```json
    "ConnectionStrings": {
@@ -62,12 +64,19 @@ dotnet run
 ```
 
 The application will be accessible at `https://localhost:7165` or `http://localhost:5249`.
+
 ![Launch Terminal](https://github.com/user-attachments/assets/5d15d1e6-fde8-4fa0-af5e-6737b0370b24)
 
 ## Usage
 
 1. Start writing your diary entries using the provided text editor.
 2. View your entries in a list or edit them as needed.
+
+![Diary Index Page](https://github.com/user-attachments/assets/def75778-0f58-4d77-babe-7a436a3f59a2)
+![Create Diary Entry](https://github.com/user-attachments/assets/cd2f2686-d724-4974-b2a6-980f0c03e51a)
+![Edit Diary Entry](https://github.com/user-attachments/assets/af2a3ac0-b44b-4bfa-9453-595152875ca3)
+![Delete Diary Entry](https://github.com/user-attachments/assets/8153f30d-aa3b-47a1-bbe7-eee0028bb4e8)
+
 
 ## Contributing
 

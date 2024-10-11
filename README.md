@@ -62,6 +62,7 @@ dotnet run
 ```
 
 The application will be accessible at `https://localhost:7165` or `http://localhost:5249`.
+![Launch Terminal](https://github.com/user-attachments/assets/5d15d1e6-fde8-4fa0-af5e-6737b0370b24)
 
 ## Usage
 

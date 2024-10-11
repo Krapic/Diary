@@ -80,4 +80,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 - **ASP.NET Core** for the backend framework
 - **Entity Framework Core** for the ORM
-- **Bootstrap** for the frontend framework (if applicable)
+- **Bootstrap** for the frontend framework
